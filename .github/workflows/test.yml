@@ -1,9 +1,8 @@
 name: 🚀 Test
 
 on:
-  check_suite:
-    branches:
-      - main
+  pull_request:
+    
 
 jobs:
   run:
